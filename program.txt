@@ -1,0 +1,18 @@
+#include <iostream>
+#include<conio.h>
+#include <iomanip>
+using namespace std;
+
+int main() 
+{
+    int a=12345,b=1234,c=123;
+    cout<<"a="<<a<<endl;
+    cout<<"a="<<setw(6)<<a<<endl;
+    cout<<"b="<<b<<endl;
+    cout<<"b="<<setw(5)<<b<<endl;
+    cout<<"c="<<c<<endl;
+    cout<<"c="<<setw(9)<<c<<endl;
+
+
+    return 0;
+}
